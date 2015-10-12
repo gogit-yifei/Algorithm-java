@@ -1,12 +1,11 @@
 /* A frog tries to jump across a river.
-   The frog is located at position 0 and 
-   want to go the the other side at position X.
-   The longest distance the frog is able to jump
-   is D. If X > D, then the frog cannot jump to
-   the other side. But every second there is a leaf
-   falling on the river. The element A[i] in array A
-   represents the position where a leaf will fall in
-   the ith second.
+   The frog is located at position 0 and want to
+   go the the other side at position X. The longest
+   distance the frog is able to jumpis D. If X > D,
+   then the frog cannot jump to the other side. But
+   every second there is a leaf falling on the river.
+   The element A[i] in array A represents the position
+   where a leaf will fall in the ith second.
 
    Worst case time complexity: O(n)
    Space complexity: O(X/D)
